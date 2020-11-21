@@ -1,18 +1,13 @@
 package za.co.dwindle.utils;
 
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.BatteryManager;
-import android.os.Build;
-import android.provider.Settings;
-import android.telephony.TelephonyManager;
 import android.util.Log;
 import static android.content.Context.BATTERY_SERVICE;
 
 public class DeviceUtils
 {
-    public static String getIMEI(Context context)
+    /*public static String getIMEI(Context context)
     {
         String toReturn = null;
 
@@ -44,7 +39,7 @@ public class DeviceUtils
         }
 
         return toReturn;
-    }
+    }*/
 
     public static String getBatteryLevel(Context context)
     {
@@ -69,7 +64,7 @@ public class DeviceUtils
         return toReturn;
     }
 
-    public static String getNetworkType(Context context)
+    /*public static String getNetworkType(Context context)
     {
         String toReturn = null;
 
@@ -139,9 +134,9 @@ public class DeviceUtils
         }
 
         return toReturn;
-    }
+    }*/
 
-    public static Boolean isRoaming(Context context)
+    /*public static Boolean isRoaming(Context context)
     {
         ConnectivityManager connManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
@@ -157,5 +152,7 @@ public class DeviceUtils
             NetworkInfo networkType = connManager.getActiveNetworkInfo();
             return networkType.isRoaming();
         }
-    }
+    }*/
+
+
 }

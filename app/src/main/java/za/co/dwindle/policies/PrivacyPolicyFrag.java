@@ -30,29 +30,19 @@ public class PrivacyPolicyFrag extends Fragment
         View view = inflater.inflate(R.layout.frag_privacy_policy, container, false);
 
         String privacyPolicy =
-                "        <p style=\"text-align:left; margin:4%;\">Your privacy and legal rights are important to us. It is Track My&#39;s policy to respect your privacy regarding any information we may collect from you.<br />\n" +
+                "        <p style=\"text-align:left; margin:4%;\">Your privacy and legal rights are important to us. It is Dwindle&#39;s policy to respect your privacy regarding any images compressed on Dwindle.<br />\n" +
                 "        <br />\n" +
-                "        We only ask for personal information that is required for us to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we&#39;re collecting it and how it will be used.<br />\n" +
-                "        <br />\n" +
-                "        We only retain the collected information for as long as necessary to provide you with your requested service. The data we store, we will protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.<br />\n" +
-                "        <br />\n" +
-                "        We don&#39;t share any personally identifying information publicly or with third-parties, except when required to by law.<br />\n" +
-                "        <br />\n" +
-                "        Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.<br />\n" +
-                "        <br />\n" +
-                "        You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.<br />\n" +
-                "        <br />\n" +
-                "        Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.<br />\n" +
+                "        We do not collect any personal information and do not store any images compressed on Dwindle.<br />\n" +
+                        "Dwindle compresses images and replaces the original image with the compressed one. Therefore, please save your original images in a safe please before compressing it.<br />\n" +
+                "        Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions feel free to contact us.<br />\n" +
                 "        <br />\n" +
                 "        <b><u>Personal and Sensitive Information Disclosure</u></b><br />\n" +
-                "        To make use of the Track My app please note that we require and store the following information:<br />\n" +
-                "        1. Your current location.<br />\n" +
-                "        2. Device IMEI number.<br />\n" +
-                "        3. Device health (Battery life, signal strength).<br />\n" +
+                "        To make use of the Dwindle app please note that we require the following permissions:<br />\n" +
+                "        1. Storage permission.<br />\n" +
                 "        <br />\n" +
-                "        This policy is effective as of 14 November 2020.<br />\n" +
+                "        This policy is effective as of 21 November 2020.<br />\n" +
                 "        <br />\n" +
-                "        By accepting these above terms for personal and sensitivity information disclosure as to how your data will be used you give us permission to save your data for the terms as described above.</p>";
+                "        By accepting these above terms for personal and sensitivity information disclosure as to how your images will be used, you give us permission to compress your images for the terms describe above.</p>";
 
         TextView txtPrivacyPolicy = (TextView) view.findViewById(R.id.txtPrivacyPolicy);
         txtPrivacyPolicy.setMovementMethod(new ScrollingMovementMethod());

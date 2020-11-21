@@ -2,10 +2,9 @@ package za.co.dwindle.utils;
 
 public class ConstantUtils
 {
-    public static final String TAG = "Boilerplate";
+    public static final String TAG = "Dwindle";
 
-    public static final int MAP_REFRESH_TIME = 30000;
-    public static final int DEVICE_SERVICE_TIME = 30000;
+    public static final int STORAGE_REFRESH_TIME = 60000;
 
     //REQUEST METHODS
     public static final String REQUEST_METHOD_POST = "POST";

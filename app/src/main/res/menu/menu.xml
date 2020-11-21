@@ -4,8 +4,8 @@
     android:tint="@color/darkblue"
     >
     <item
-        android:id="@+id/settings"
-        android:title="Settings"
+        android:id="@+id/permissions"
+        android:title="Permissions"
         android:icon="@drawable/ic_settings_black_24dp"
         app:showAsAction="never">
     </item>
